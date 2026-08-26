@@ -1,0 +1,5 @@
+frase = input("digite uma frase : ").strip().lower()
+frase_formatada = frase.count("a")
+print(f"a letra A aparece {frase_formatada} vezes")
+print(f"a primeira letra A aparece no índice : {frase.find("a") + 1}")
+print(f"a última letra A aparece no índice : {frase.rfind("a")}")
