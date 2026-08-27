@@ -1,0 +1,5 @@
+numero01 = float(input("Diga o primeiro número"))
+numero02 = float(input("Diga o segundo número"))
+numero03 = float(input("Diga o terceiro número"))
+print(f"o maior valor é : {max(numero02,numero01,numero03)}")
+print(f"o menor valor é : {min(numero03,numero02,numero01)}")
